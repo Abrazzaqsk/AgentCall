@@ -29,8 +29,6 @@ coverage/
 
 # Runtime state, local evidence, generated release artifacts, and secrets
 *.sock
-.env
-.env.*
 !.env.example
 /.hermes/
 /release/
@@ -50,4 +48,4 @@ __pycache__/
 # IDE
 .idea/
 *.iml
-.vscode/
+config.bat
