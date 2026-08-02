@@ -12,7 +12,7 @@
   "type": "module",
   "main": "electron/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node init && electron .",
     "test": "node --test test/*.test.js",
     "check": "node --test test/*.test.js && node --check electron/agent-supervisor.js && node --check electron/daemon-client.js && node --check electron/ipc.js && node --check electron/main.js && node --check electron/managed-gateway.js && node --check electron/recording-media.js && node --check electron/security.js && node --check renderer/app.js",
     "stage:windows": "node scripts/stage-windows-tools.mjs",
